@@ -1,0 +1,470 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    font:15px/1.5 Helvetical,"Times New Roman",Tahoma;
+    background:#f4f4f4;
+    margin:auto;
+    border: 2px solid gray;
+    padding:2px 5px 0px 5px;
+    max-width:1000px;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+/*global styles*/
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+
+.btn_1{
+    height :40px;
+    background-color:#e8491d;
+    color:#ffffff;
+    border:none;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 3px;
+}
+
+.dark-background{
+    color:#ffffff;
+    background-color:#35425a;
+    padding:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.card-view{
+    border-radius:2px;
+    border:#cccccc 1px solid;
+    padding:10px;
+    margin-bottom:5px;
+    background-color:#e6e6e6;
+    font-weight: lighter;
+}
+
+.horizontal-box{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+}
+
+/*header style*/
+
+header{
+    background:#35425a;
+    color:#ffffff;
+    padding-top:30px;
+    min-width:70px;
+    border-bottom:#e8491d 3px solid;
+    text-align: center;
+}
+
+header a{
+    color:#5983F9;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+header .site_logo{
+    float:none;
+}
+
+header .site_logo h3{
+    margin:10px;
+    font-family:"Monotype Corsiva";
+    font-size:25px;
+}
+header .site_logo #logo-img1{
+    width:100px;
+    height:100px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+header .site_logo #logo-img2{
+    display: inline;
+    height:100px;
+    width: 80%;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header nav a:hover{
+    background-color:#cccccc;
+    //font-weight:bold;
+    font-family:"Calisto MT";
+}
+
+.site_logo img{
+    height:250px;
+    width:450px;
+    margin-left:20px;
+    border-radius:5px;
+    border:1px inset #e84;
+}
+header .site_logo #alt-logo-text{
+    display: none;
+}
+/*Showcase area style*/
+
+#showcase{
+    min-height:300px;
+    background:url("../pics/home-with-road.jpg")/*url("../pics/showcase_picture.jpg")*/ no-repeat 0 -90px;
+    background-size:cover;
+    text-align:center;
+    color:#000000;
+    width: 100%;
+}
+
+#showcase .transparent-box{
+    background: #ffffff;
+    opacity: 0.6;
+    padding: 20px;
+    margin-top:60px;
+    margin-bottom:100px;
+}
+#showcase h2{
+    //font-size:30px;
+    font-family:serif;
+}
+
+#showcase marquee{
+    font-family:"terminal";
+    font-size:20px;
+    color:black;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+/*Newsletter style*/
+
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#35425a;
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top:15px;
+    clear: left;
+}
+
+#newsletter input[type="email"]{
+    height:40px;
+    width:250px;
+    padding:4px;
+    padding-top:1px;
+    font:18px tahoma;
+    color:#000000;
+    border-radius: 3px;
+}
+/*Articles-section*/
+
+.articles-section{
+    padding:10px 10px 10px 10px;
+    background:dimgrey;
+    border-top:5px solid white;
+}
+.articles-section .card-view{
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 2px dimgrey;
+    margin:10px 25px 10px 30px;
+    //max-width: 450px;
+    background-color:inherit;
+    color:gainsboro;
+    font-family: "Adobe Fangsong Std R";
+    font-weight: lighter;
+}
+.articles-section .card-view h1{
+    font-family: Algerian;
+    text-align: center;
+    font-size:30px; 
+    text-transform:uppercase;
+    color:#e8491d;
+}
+.first-letter-cap:first-letter{
+    font-family:Algerian;
+    font-size:30px;
+}
+.articles-section .card-view h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top:5px;
+    color:black;
+    font-family: "Century Gothic";
+}
+/*Advert section style*/
+
+#advert_box{
+    margin-top:20px;
+}
+
+#advert_box .advertImages{
+    padding:10px;
+    text-align:center;
+}
+
+#advert_box .advertImages img{
+    width:100px;
+    border: none;
+}
+
+#transact{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    //margin-right:25px;
+}
+#transact p{
+    font-size:20px;
+    margin: 10px;
+}
+
+#transact .request .input-group{
+    padding:5px;
+    margin:15px;
+    font:18px tahoma;
+}
+#transact .request button{
+width: 50%; 
+height: 50px;
+}
+/*footer style*/
+
+footer{
+    padding:20px;
+    margin-top:50px;
+    background-color:#e8491d;
+    color:#ffffff;
+    text-align:center;
+    margin-bottom: 10px;
+    font-family: "verdena";
+    font-size: 18px;
+}
+footer nav{
+    text-align: left;
+}
+
+footer a{
+    color:#000000;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+footer .current a{
+    color:#ffffff;
+    font-weight:bold;
+}
+
+footer nav a:hover{
+    background-color:dimgray;
+    //font-weight:bold;
+    font-family:"Calisto MT";
+    padding: 1px;
+    color: #fff;
+    text-decoration:none;
+}
+
+footer li{
+    display:inline-block;
+    padding:0 20px 0 20px;
+}
+footer .contact{
+    border-top: none;
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+/*Sidebar in about.html*/
+.about-core-values{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: auto;
+  width: 100%;
+}
+.main-about{
+  flex: 2;
+}
+.about #side_bar{
+    flex: 1;
+    float:right;
+   width:30%;
+    margin-top:10px;
+}
+
+.container #side_bar ol{
+    text-align: left;
+    margin-left: 25px;
+    padding:10px;
+}
+.container #side_bar #core-values-h3{
+    font-family: "Kunstler Script";
+    font-size: 50px;
+    background:#e8491d;//#ce1e1e;
+    padding: 5px;
+    color:#ffff99;
+    font-weight: bold;
+}
+.main_article{
+    border:2px solid #35425a;
+    padding: 5px;
+    font-size: 16px;
+    background: lightgray;
+   // float:left;
+    //width:65%;
+    margin-top: 10px;
+    border-radius: 2px;
+    text-align: left;
+    font-family: "Tahoma";
+}
+.main_article .page_title{
+    font-size:20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family:Algerian;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 6px;
+    color:lightgray;
+    text-align: center;
+}
+.main_article h3{
+    font-family:"OCR A Extended";
+    font-size:18px;
+    padding: 5px;
+    color:dimgray;
+    font-weight: bold;
+
+}
+.contact{
+    border-top: 5px solid #35425a;
+    font-family:tahoma;
+    background: dimgray;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top:25px;
+    color:#c6c6c6;
+    text-align: left;
+    padding: 5px; 
+    overflow-wrap: break-word;
+}
+.meet-the-team{
+    background:url("../pics/evanlite_logo_text.jpg") no-repeat 50px -30px;
+    background-size: 95%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/*sidebar of services.html*/
+.services #side_bar{
+  text-align:center;
+}
+.services #side_bar .request input{
+
+    width:100%;
+    padding:15px 10x;
+    margin:10px auto;
+}
+#side_bar .request textarea{
+  width: 100%;
+  height: 100%;
+}
+
+/**
+*this style well only show up on a small screen *device with width of 768px and below
+*/
+
+@media(max-width:768px){
+    header .site_logo,header nav,header nav li,#newsletter h1,#newsletter form,.main_article,#side_bar{
+
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    header{
+        padding-bottom:20px;
+    }
+    header .site_logo #logo-img2{
+        display: none;
+    }
+    header .site_logo #alt-logo-text{
+        display: block;
+        font-family:"Copperplate Gothic Bold","Stencil Std";
+        font-size: 15px;
+    }
+    header .site_logo #slogan-highlight{
+        color: lightgray;
+    }
+    #showcase h1{
+        margin:40px;
+    }
+    /*Showcase area style*/
+
+    #showcase{
+        background:url("../pics/showcase_picture.jpg") no-repeat 0 0;
+        background-size:cover;
+    }
+
+
+    #newsletter button{
+        display:block;
+        width:100%;
+    }
+
+    #newsletter form input[type="email"]{
+        width:100%;
+        margin-bottom:5px;
+    }
+    .main_article{
+        text-align: left;
+        border: none;
+        border-radius: 6px;
+    }
+    footer nav{
+        text-align:center;
+    }
+    footer li{
+        display:block;
+        padding:0 20px 0 20px;
+    }
+}

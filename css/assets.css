@@ -1,0 +1,157 @@
+/*
+ @Name Assets.css
+This program and source code belongs to Ismail Nurudeen(El Nuru).
+The content of this file should not be modified or altered without the permission of the original owner.
+Copyright Smart Syntax Inc.
+*/
+/* 
+    Created on : Aug 26, 2017, 8:42:14 PM
+    Author     : El Nuru
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+header,section,article,hgroup,nav,footer,aside{
+    display:block;
+}
+body{
+    text-align: left;
+    font:15px/1.5 Arial,Helvetical,Tahoma;
+}
+.top_container{
+    text-align: center;
+}
+.top_container form{
+    background: lightgrey;
+    padding-bottom: 20px;
+}
+input[type="search"]{
+    height :38px;
+    width:250px;
+    padding:4px;
+    margin-top: 20px;
+}
+.top_container hgroup h1{
+    font:35px Algerian;
+    margin-top: 20px;
+}
+.top_container hgroup h3{
+    font:20px "times new roman";
+    margin-bottom: 10px;
+}
+.search-filter{
+    border-bottom:3px solid #e8491d;;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    padding-left: 50px;
+}
+.search-filter h3{
+    margin-bottom: 15px; 
+
+}
+.search-filter label{
+    font:20px bold tahoma;
+    color: steelblue;
+    margin-right:5px;
+}
+.search-filter select{
+    height: 40px;
+    font:16px Ariel;
+    margin-right:20px;
+    background:#35425a;
+    border:3px inset;
+    border-radius:6px;
+    color: #c6c6c6;
+}
+.search-filter input[type="submit"]{
+    height: 40px;
+    color:#ffffff;
+    border-radius:5px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+.item{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border:1px solid dimgray;
+    border-radius: 3px;
+    -webkit-box-orient: horizontal;
+    display: -webkit-box;
+}
+.item img{
+    background:#35425a;
+    width: 150px;
+    height: 100%;
+    //border:2px inset gray;
+    border-radius: 5px;
+    margin: 5px 30px 5px 10px;
+}
+.item .item-info{
+    border-left:1px dotted gray;
+    padding: 10px;
+}
+.item-info p span{
+    font:25px/2 "Rockwell Extra Bold";
+    font-weight:bolder;
+}
+.item .item-info a{
+    color: steelblue;
+    font-weight:bolder;
+    float: right;
+}
+footer{
+    margin-top: 30px;
+}
+@media(max-width:798px){
+    .item{
+        -webkit-box-orient:vertical;
+        display: -webkit-box;
+    }
+    .item .item-info{
+        border-left:none;
+    }
+    .search-filter{
+        text-align: center;
+        padding-left:10px;
+    }
+    .search-filter label{
+        // margin-right:5px;
+        margin-bottom:20px;
+    }
+    .search-filter select{
+        margin-right:0px;
+        width: 100%;
+    }
+    .search-filter input[type="submit"]{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .top_container:first-child input{
+        float:none;
+        text-align:center;
+        width:85%;
+        margin-bottom:5px;
+    }
+}
+@media(max-width:893px){
+    .search-filter{
+        text-align: center;
+        padding-left:10px;
+    }
+    .search-filter label{
+        // margin-right:5px;
+        margin-bottom:20px;
+    }
+    .search-filter select{
+        margin-right:0px;
+        width: 100%;
+    }
+    .search-filter input[type="submit"]{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
